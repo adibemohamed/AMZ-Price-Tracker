@@ -17,4 +17,8 @@ def get_chrome_web_driver(options):
 def get_web_driver_options():
     return webdriver.ChromeOptions()
 
-def    
+def set_ignore_certificate_error(options):
+    options.add_argument('--ignore-certificate-erros')
+    
+def set_browser_as_incognito(options):
+    options.add_argument('--incognito')
