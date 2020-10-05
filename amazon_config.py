@@ -16,3 +16,5 @@ def get_chrome_web_driver(options):
 
 def get_web_driver_options():
     return webdriver.ChromeOptions()
+
+def    
